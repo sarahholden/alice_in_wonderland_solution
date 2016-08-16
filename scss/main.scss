@@ -1,0 +1,16 @@
+$bodyText: #333;
+$primaryColor: #FCEE21;
+
+%highlight {
+  background-color: $primaryColor;
+  border: 10px solid $bodyText;
+}
+
+@import 'base_styles';
+@import 'header';
+@import 'article';
+@import 'footer';
+
+
+
+
